@@ -14,6 +14,11 @@
 		7F53E6A91CA68AFA00B8AC70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F53E6A71CA68AFA00B8AC70 /* LaunchScreen.storyboard */; };
 		7F53E6B41CA68AFA00B8AC70 /* AKB_____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F53E6B31CA68AFA00B8AC70 /* AKB_____Tests.swift */; };
 		7F53E6BF1CA68AFA00B8AC70 /* AKB_____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F53E6BE1CA68AFA00B8AC70 /* AKB_____UITests.swift */; };
+		7F53E6D11CA698CB00B8AC70 /* 凶.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F53E6CC1CA698CB00B8AC70 /* 凶.png */; };
+		7F53E6D21CA698CB00B8AC70 /* 小吉.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7F53E6CD1CA698CB00B8AC70 /* 小吉.JPG */; };
+		7F53E6D31CA698CB00B8AC70 /* 大吉.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F53E6CE1CA698CB00B8AC70 /* 大吉.jpeg */; };
+		7F53E6D41CA698CB00B8AC70 /* 大凶.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F53E6CF1CA698CB00B8AC70 /* 大凶.jpeg */; };
+		7F53E6D51CA698CB00B8AC70 /* 中吉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F53E6D01CA698CB00B8AC70 /* 中吉.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		7F53E6BA1CA68AFA00B8AC70 /* AKBおみくじUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AKBおみくじUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F53E6BE1CA68AFA00B8AC70 /* AKB_____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AKB_____UITests.swift"; sourceTree = "<group>"; };
 		7F53E6C01CA68AFA00B8AC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F53E6CC1CA698CB00B8AC70 /* 凶.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "凶.png"; sourceTree = "<group>"; };
+		7F53E6CD1CA698CB00B8AC70 /* 小吉.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小吉.JPG"; sourceTree = "<group>"; };
+		7F53E6CE1CA698CB00B8AC70 /* 大吉.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大吉.jpeg"; sourceTree = "<group>"; };
+		7F53E6CF1CA698CB00B8AC70 /* 大凶.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大凶.jpeg"; sourceTree = "<group>"; };
+		7F53E6D01CA698CB00B8AC70 /* 中吉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "中吉.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 		7F53E69D1CA68AFA00B8AC70 /* AKBおみくじ */ = {
 			isa = PBXGroup;
 			children = (
+				7F53E6CC1CA698CB00B8AC70 /* 凶.png */,
+				7F53E6CD1CA698CB00B8AC70 /* 小吉.JPG */,
+				7F53E6CE1CA698CB00B8AC70 /* 大吉.jpeg */,
+				7F53E6CF1CA698CB00B8AC70 /* 大凶.jpeg */,
+				7F53E6D01CA698CB00B8AC70 /* 中吉.jpg */,
 				7F53E69E1CA68AFA00B8AC70 /* AppDelegate.swift */,
 				7F53E6A01CA68AFA00B8AC70 /* ViewController.swift */,
 				7F53E6A21CA68AFA00B8AC70 /* Main.storyboard */,
@@ -229,8 +244,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F53E6D41CA698CB00B8AC70 /* 大凶.jpeg in Resources */,
+				7F53E6D21CA698CB00B8AC70 /* 小吉.JPG in Resources */,
 				7F53E6A91CA68AFA00B8AC70 /* LaunchScreen.storyboard in Resources */,
+				7F53E6D51CA698CB00B8AC70 /* 中吉.jpg in Resources */,
 				7F53E6A61CA68AFA00B8AC70 /* Assets.xcassets in Resources */,
+				7F53E6D31CA698CB00B8AC70 /* 大吉.jpeg in Resources */,
+				7F53E6D11CA698CB00B8AC70 /* 凶.png in Resources */,
 				7F53E6A41CA68AFA00B8AC70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
